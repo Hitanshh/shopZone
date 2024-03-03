@@ -41,11 +41,12 @@
 }
 .txt2{
     font-weight: bold;
-    font-size: 1rem;
-    margin-left: 3px;
+    font-size: 0.85rem;
+    margin-left: 4px;
 }
 .address2{
     display: flex;
+    align-items: baseline;
 }
 .address{
     height: 55px;
@@ -93,4 +94,107 @@
     border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+.nav_search:hover{
+    border: 2px solid #fdb526;    
+    border-radius: 5px;
+}
+
+/* Box-04 */
+span{
+    font-size: 0.7rem;
+}
+.box4{
+    font-size: 0.85rem;    
+    font-weight: 700;
+
+
+/* Box-05 */
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 28px;
+}
+
+/* Panel */
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+}
+.panel-ops a{
+    /* display: inline; */
+    padding: 10px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+}
+.panel-ops a:hover{
+    border: 1.2px solid white;
+}
+.panel-ops{
+    padding: 10px;
+    width: 80%;
+}
+.paneldetails{
+    padding: 10px;
+}
+
+/* main section */
+.mainsection{
+    background-image: url(assets/top_page.jpg);
+    height: 350px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-mssg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    height: 40px;
+    margin-bottom: 1rem;
+
+}
+.main-mssg a{
+    color: #007185;
+}
+.contentbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(206, 140, 212, 0.539);
+}
+.box{
+    height: 400px;
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 15px;
+    padding-top: 15px;
+}
+.class-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
